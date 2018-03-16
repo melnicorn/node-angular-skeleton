@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html ng-app="sampleApp">
+<head>
+	<title>Example angular application</title>
+	<script src="/js/lib/angular.min.js"></script>
+	<script src="app.js"></script>
+	<link rel="stylesheet" type="text/css" href="/css/main.css">
+</head>
+<body ng-controller="sampleController">
+
+	<h1>Angular sample app</h1>
+
+	{{message}}
+
+	<div>
+		Result of GET request:<br />
+
+		{{request.get}}
+	</div>
+
+	<div>
+		Result of POST request:<br />
+
+		{{request.post}}
+	</div>
+
+</body>
+</html>

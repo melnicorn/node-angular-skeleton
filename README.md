@@ -5,7 +5,9 @@ To get started:
 ```
 git clone https://github.com/melnicorn/node-angular-skeleton
 
-npm init
+cd node-angular-skeleton
+
+npm install
 
 node index.js
 ```
